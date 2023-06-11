@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+
+<head>
+    <title>Add Property | LivingWell </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="propertyPage.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="logo-header.png" alt="logo" width="170" height="90" />
+        <a href="index.html">
+            <p id="logout">Logout</p>
+        </a>
+    </header>
+    <main>
+        <form method="POST">
+            <fieldset>
+                <h1>Add New Property</h1>
+                <label class="name add">Property Name: <input type="text" class="add" placeholder='Enter The Property Name'></label>
+
+                <label class="category-add">Category: </label> 
+                <label>Apartment<input id="apartment" type="radio" name="Category" value="Apartment" checked></label>
+                <label> Villa <input id="Villa" type="radio" name="Category" value="Villa"> </label> <br><br>
+
+                <label class="room add">Number of Rooms: <input type="number" placeholder="Ex: 3"></label>
+
+                <label class='rent add'>Rent: <input type="number" class="add" placeholder="Ex: 30000></label><br><br>
+
+                <label class='location add'>Location: <input type="text" class="add" placeholder='Ex: riyadh, alyasmin District'></label>
+
+                <label class="tenants add">Max Number Of Tenants: <input type="number" placeholder="Ex: 4"></label><br><br><br>
+
+                <label class="picture add">Upload Pictures Of The Property: <input type="file"></label><br><br><br>
+
+                <label class="description add">Enter description: <br><br><textarea placeholder="Enter description" rows="4" cols="30"></textarea></label><br>
+
+                <button class="submit"><a href="details.html">Submit</a> </button><br><br>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <img id="footerLogo" src="logo.jpg" alt="LivingWell">
+        <div class="footer-div" id="socials">
+            <h4>Follow Us on Social Media</h4>
+            <ul>
+                <li><a href="https://twitter.com/livingwellproject" target="_blank"><img src="twitter.png"
+                            alt="@livingwellproject"></a></li>
+                <li><a href="https://www.instagram.com/livingwellpro/" target="_blank"><img src="instagram.png"
+                            alt="@livingwellpro"></a></li>
+            </ul>
+            <div id="copyright">Living Well &copy; 2023</div>
+        </div>
+        <div class="footer-div" id="contacts">
+            <h4>Contact Us</h4>
+            <ul>
+                <li><a href="mailto:livingwellproject@gmail.com" target="_blank"><img src="gmail.png"
+                            alt="livingwellproject@gmail.com"></a></li>
+                <li><img src="tel.png"></li>
+            </ul>
+            <div id="phoneNumber">+966123456789</div>
+        </div>
+    </footer>
+</body>
+
+</html>

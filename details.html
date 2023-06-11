@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Property Details | LivingWell</title>
+    <link rel="styleSheet" href="details.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="logo.png" alt="logo" width="170" height="90" />
+
+        <a href="./index.html">
+            <p id="logout">Logout</p>
+        </a>
+
+    </header>
+
+    <form>
+        <h1>
+            Property Details
+        </h1>
+        <fieldset>
+            <h2>Property Information</h2>
+
+            <label for="name" class="name">Property Name</label>
+            <input type="text" id="name" value="Olaya Home" disabled>
+            <label for="category" class="category">Category</label>
+            <input type="text" id="category" value="Villa" disabled>
+            <br>
+
+            <label for="room" class="room">Number Of Rooms</label>
+            <input type="text" id="room" value="6" disabled>
+
+            <label for="rent" class="rent">Rent</label>
+            <input type="text" id="rent" value="5000/month" disabled>
+            <br>
+
+            <label for="tenant" class="tenant">Max Number Of Tenants</label>
+            <input type="text" id="tenant" value="15" disabled>
+
+            <label for="location" class="location">Location</label>
+            <input type="text" id="location" value="Riyadh, Al-olaya District " disabled>
+
+            <h2>Property Description</h2>
+
+            <p>A villa that contains a spacious living area, swimming pool, elegantly furnished dining area, and more.
+            </p>
+
+            <h2> Property Pictures </h2>
+            <div class="property-images">
+                <div class="edit-property-image">
+                    <img alt="bedroom" src="house.jpg" width="230" height="200">
+                </div>
+                <div class="edit-property-image">
+                    <img alt="bedroom" src="bedroom.jpg" width="230" height="200">
+                </div>
+                <div class="edit-property-image">
+                    <img alt="bedroom" src="kitchen.jpg" width="230" height="200">
+                </div>
+            </div>
+            <!--<input type="submit" value="Apply">
+    <a href="newhtml.html">
+        <input type="submit" value="Edit">
+    </a>
+        -->
+            <br>
+            <button type="button" class="apply">Apply</button>
+            <button type="button" class="edit" onclick="window.location.href = 'edit.html';">Edit</button>
+
+
+        </fieldset>
+    </form>
+
+
+    <footer>
+        <img id="footerLogo" src="logo.jpg" alt="LivingWell">
+        <div class="footer-div" id="socials">
+            <h4>Follow Us on Social Media</h4>
+            <ul>
+                <li><a href="https://twitter.com/livingwellproject" target="_blank"><img src="twitter.png"
+                            alt="@livingwellproject"></a></li>
+                <li><a href="https://www.instagram.com/livingwellpro/" target="_blank"><img src="instagram.png"
+                            alt="@livingwellpro"></a></li>
+            </ul>
+            <div id="copyright">Living Well &copy; 2023</div>
+        </div>
+        <div class="footer-div" id="contacts">
+            <h4>Contact Us</h4>
+            <ul>
+                <li><a href="mailto:livingwellproject@gmail.com" target="_blank"><img src="gmail.png"
+                            alt="livingwellproject@gmail.com"></a></li>
+                <li><img src="tel.png"></li>
+            </ul>
+            <div id="phoneNumber">+966123456789</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

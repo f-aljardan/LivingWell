@@ -1,0 +1,158 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Apr 4, 2023, 12:54:32 AM
+    Author     : anwar
+*/
+header {
+    background-image: url(bg-header.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+
+#logout {
+    color: white;
+    font-family: 'system-ui', sans-serif;
+    position: absolute;
+    left: 90%;
+    top: 2%;
+    font-size: 1.5em;
+}
+
+#logo {
+    margin-top: 0.2%;
+}
+
+footer {
+    background-color: #141414;
+    margin: 10% 0 0;
+    color: aliceblue;
+    font-family: 'system-ui', sans-serif;
+}
+
+.footer-div {
+    width: 20%;
+    margin: 5% 4.5%;
+    display: inline-block;
+}
+
+.footer-div h4 {
+    margin: 5% auto;
+    width: fit-content;
+    font-weight: normal;
+}
+
+.footer-div ul {
+    width: auto;
+}
+
+.footer-div li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 5%;
+}
+
+.footer-div img {
+    width: 25%;
+    margin: 0 3%;
+}
+
+#socials {
+    margin-left: 7%;
+    margin-right: 6%;
+}
+
+#footerLogo {
+    width: 30%;
+    float: right;
+    margin-top: 4%;
+    margin-right: 1%;
+}
+
+#copyright,
+#phoneNumber {
+    width: fit-content;
+    margin: 1% auto;
+    text-align: center;
+    letter-spacing: 0.2em;
+    padding: 5% 0 2%;
+}
+
+label {
+    font-size: 1.2em;
+    margin: 0 2%;
+}
+
+input[type="number"],
+[type="text"] {
+    border: none;
+    border-radius: 15px;
+    padding: 8px 14px;
+    margin: 2% auto 2% 0;
+    background-color: #EEE;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+input[button] {
+    font-size: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+
+form {
+    margin: 5% auto;
+    padding-top: 2%;
+    height: 100%;
+    width: 70%;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: #2830503f 0px 22px 70px 4px;
+}
+
+button {
+    background-color: #00dcfb;
+    display: block;
+    color: white;
+    padding: 7px 30px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    margin: 5% auto 1%;
+}
+
+button:hover {
+    background-color: black;
+}
+
+input[type="text"].add:hover,
+[type="number"]:hover {
+    border: 1px solid #00dcfb;
+    border-radius: 15px;
+}
+
+.category-add {
+    accent-color: #00dcfb;
+}
+
+textarea {
+    width: 70%;
+}
